@@ -33,7 +33,7 @@
             <img class="mb-4" src="https://getbootstrap.com/docs/4.4/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
             <h1 class="h3 mb-3 font-weight-normal">Login</h1>
             <asp:TextBox ID="txtUsuario" runat="server" CssClass="form-control" placeholder="Usuário"></asp:TextBox>
-            <asp:TextBox ID="txtSenha" runat="server" CssClass="form-control" placeholder="Senha"></asp:TextBox>
+            <asp:TextBox ID="txtSenha" runat="server" CssClass="form-control" TextMode="Password" placeholder="Senha"></asp:TextBox>
             <asp:Label ID="lbResultado" runat="server" Visible="false"></asp:Label>
             <div>
                 <br />  
