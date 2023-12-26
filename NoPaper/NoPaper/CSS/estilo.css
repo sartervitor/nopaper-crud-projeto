@@ -1,0 +1,14 @@
+﻿
+.acesso-negado{
+    font-size: 14px;
+    color: red;
+}
+.cadastrado{
+    color: lawngreen;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
